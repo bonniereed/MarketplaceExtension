@@ -5,6 +5,13 @@
   "manifest_version": 3,
   "action": {
     "default_title": "Marketplace App",
-    "default_popup": "marketplace-app/build/index.html"
-  }
+    "default_popup": "src/popup.html"
+  },
+  "permissions": ["activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["build/static/js/main.a751826d.js"]
+    }
+  ]
 }
