@@ -4,8 +4,24 @@
     "description": "Manage your listings from your web browser",
     "manifest_version": 3,
     "author": "Bonnie Reed",
+    "service_worker": "background.js",
+    "type": "module",
+    "permissions": ["tabs"],
+    "options_page": "options.html",
     "action": {
-        "default_popup": "index.html",
-        "default_title": "Marketplace Extension"
+        "default_popup": "popup.html",
+        "default_title": "Marketplace Extension",
+        "default_icon": {
+            "16": "",
+            "32": "",
+            "48": "",
+            "128": ""
+        }
+    },
+    "icons": {
+        "16": "",
+        "32": "",
+        "48": "",
+        "128": ""
     }
 }
