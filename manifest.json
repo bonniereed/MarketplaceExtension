@@ -1,0 +1,11 @@
+{
+    "name": "Marketplace Extension",
+    "version": "1.0.0",
+    "description": "Manage your listings from your web browser",
+    "manifest_version": 3,
+    "author": "Bonnie Reed",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Marketplace Extension"
+    }
+}
