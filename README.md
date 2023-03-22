@@ -1,9 +1,13 @@
-## Marketplace Extension 
+![Marketplace Extension handshake](assets/images/logo48.png)
+
+## Marketplace Extension
 
 ## Description
+
 A Facebook Marketplace Extenstion shorcut
 
 ## Usage
+
 1. Dowload the repository as a zip file.
 
 2. Locate the ZIP file on your computer and unzip it.
