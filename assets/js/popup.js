@@ -7,7 +7,7 @@ export function newTab(newTabURL) {
         active: true,
         url: newTabURL,
     };
-    chrome.windows.create(newTabURL);
+    chrome.tabs.create(newTab);
 }
 
 document.addEventListener("click", function (e) {
@@ -25,14 +25,8 @@ function urlSwitch(targetId) {
             newTab(createListingTab);
             break;
         case "direct-message":
-            let directMessageTab = `https://www.facebook.com/marketplace/you/selling`;
+            let directMessageTab = `https://www.facebook.com/messages`;
             newTab(directMessageTab);
-            break;
-        case createListing:
-            newTab = `https://www.facebook.com/marketplace/you/selling`;
-            break;
-        case directMessages:
-            newTab = `https://www.facebook.com/marketplace/you/selling`;
             break;
         default:
             break;
