@@ -13,3 +13,5 @@ A Facebook Marketplace Extenstion shorcut
 2. Locate the ZIP file on your computer and unzip it.
 
 3. Go back to the `chrome://extensions/` page and click the Load unpacked extension button and select the unzipped folder for your extension to install it.
+
+![Marketplace Extension screenshot](assets/images/screenshot.png)
